@@ -8,8 +8,6 @@ function App() {
   const addTask = (task) => {
     //id, text, done
     setTasks([...tasks, { id: Date.now(), text: task, done: false }]);
-
-    //localstorage
   };
 
   const deleteTask = (taskId) => {
@@ -20,7 +18,7 @@ function App() {
   return (
     <>
      <h1>Lista de tarefas</h1>
-     
+
      <TaskInput onAddTask={addTask}/>
      
      <TaskList tasks={tasks} onDeleteTask={deleteTask}/>
