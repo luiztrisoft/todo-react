@@ -1,9 +1,17 @@
-# React + Vite
+# todo-react (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##1. Versao 18 do node
+ nvm use 18 
 
-Currently, two official plugins are available:
+##2. Criar os arquivos dentro da pasta do projeto
+npx create-vite .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# todo-react
+##3. Selecionar o tipo de arquivo que será utilizado
+Select a framework: >> React
+Select a variant: >> Javascript
+
+##4. Instalar as dependencias
+npm i
+
+##5. Executar
+npm run dev
